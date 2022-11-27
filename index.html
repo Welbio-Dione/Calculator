@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/css/reset.css" />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Calculadora</title>
+  </head>
+  <body>
+    <div class="container">
+      <p class="title">Calculadora</p>
+      <div class="output">
+      <input type="text" id="display" class="display" placeholder="0" disabled />
+    </div>
+      <div class="keys">
+        <input type="button" value="C" onclick="clr()" class="key sp" />
+        <input type="button" value="del" onclick="del()" class="key sp" />
+        <input type="button" value="%" onclick="key('%')" class="key sp" />
+        <input type="button" value="/" onclick="key('/')" class="key sp" />
+        <input type="button" value="7" onclick="key('7')" class="key" />
+        <input type="button" value="8" onclick="key('8')" class="key" />
+        <input type="button" value="9" onclick="key('9')" class="key" />
+        <input type="button" value="*" onclick="key('*')" class="key sp" />
+        <input type="button" value="4" onclick="key('4')" class="key" />
+        <input type="button" value="5" onclick="key('5')" class="key" />
+        <input type="button" value="6" onclick="key('6')" class="key" />
+        <input type="button" value="-" onclick="key('-')" class="key sp" />
+        <input type="button" value="1" onclick="key('1')" class="key" />
+        <input type="button" value="2" onclick="key('2')" class="key" />
+        <input type="button" value="3" onclick="key('3')" class="key" />
+        <input type="button" value="+" onclick="key('+')" class="key sp" />
+        <input type="button" value="," onclick="key(',')" class="key sp" />
+        <input type="button" value="0" onclick="key('0')" class="key" />
+        <input type="button" value="=" onclick="calc()" class="key sp equal" id="keyTotal" />
+      </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>

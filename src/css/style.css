@@ -1,0 +1,54 @@
+body {
+  background: #008b8b;
+}
+
+.container {
+  background: #e7e7e7;
+  width: 300px;
+  height: 430px;
+  margin: 10vh auto;
+  text-align: center;
+  border-radius: 20px;
+}
+
+.title {
+  font-size: 25px;
+}
+
+.display {
+  font-size: 30px;
+  width: 250px;
+  height: 50px;
+  background: #e7e7e7;
+  border: solid 2px black;
+  border-radius: 10px;
+  text-align: right;
+}
+
+.display::placeholder {
+  color: black;
+}
+
+.keys {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.key {
+  font-size: 20px;
+  width: 55px;
+  height: 55px;
+  margin: 5px;
+  border-radius: 10px;
+  background: #6daaaa;
+}
+
+#keyTotal {
+  width: 120px;
+}
+
+.key:hover {
+  background: #83adad;
+}
